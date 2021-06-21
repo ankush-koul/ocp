@@ -1,2 +1,2 @@
 FROM registry.access.redhat.com/ubi8/ubi:8.0
-ONBUILD COPY /src/ /src/
+CMD echo "I am up"
